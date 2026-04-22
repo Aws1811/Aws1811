@@ -37,8 +37,8 @@
 |:-----------:|:----------:|:-----------:|:--------:|
 | HTML5 | Python / Django | MySQL | Git & GitHub |
 | CSS3 | Java / Spring | MongoDB | VS Code |
-| JavaScript | Node.js | | Linux |
-| React *(coming soon!)* | REST APIs | | Postman |
+| JavaScript | Node.js | | |
+| React *(coming soon!)* | REST APIs | |  |
 
 </div>
 
