@@ -1,0 +1,204 @@
+<svg width="860" height="200" viewBox="0 0 860 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+
+    <!-- Deep night sky background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#050510"/>
+      <stop offset="40%"  stop-color="#080820"/>
+      <stop offset="100%" stop-color="#0a0518"/>
+    </linearGradient>
+
+    <!-- Glowing border gradient that cycles -->
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#1a0a3e">
+        <animate attributeName="stop-color"
+          values="#1a0a3e;#7b2fff;#00d4ff;#ff6ec7;#7b2fff;#1a0a3e"
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="33%"  stop-color="#7b2fff">
+        <animate attributeName="stop-color"
+          values="#7b2fff;#00d4ff;#ff6ec7;#7b2fff;#1a0a3e;#7b2fff"
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="66%"  stop-color="#00d4ff">
+        <animate attributeName="stop-color"
+          values="#00d4ff;#ff6ec7;#7b2fff;#1a0a3e;#7b2fff;#00d4ff"
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ff6ec7">
+        <animate attributeName="stop-color"
+          values="#ff6ec7;#7b2fff;#1a0a3e;#7b2fff;#00d4ff;#ff6ec7"
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Glow filter for the border -->
+    <filter id="borderBlur" x="-5%" y="-50%" width="110%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Outer glow for border (big soft halo) -->
+    <filter id="bigGlow" x="-10%" y="-100%" width="120%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+    </filter>
+
+    <!-- Text glow -->
+    <filter id="textGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle text glow -->
+    <filter id="softGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Stars pattern -->
+    <radialGradient id="starGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Clip path for inner content -->
+    <clipPath id="innerClip">
+      <rect x="3" y="3" width="854" height="194" rx="14"/>
+    </clipPath>
+
+  </defs>
+
+  <!-- Outer background -->
+  <rect width="860" height="200" rx="16" fill="url(#bg)"/>
+
+  <!-- Stars layer -->
+  <g opacity="0.6">
+    <circle cx="45"  cy="22"  r="0.8" fill="white"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="120" cy="45"  r="1.0" fill="white"><animate attributeName="opacity" values="1;0.2;1"   dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="18"  r="0.7" fill="white"><animate attributeName="opacity" values="0.5;1;0.5" dur="4.0s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="35"  r="0.9" fill="white"><animate attributeName="opacity" values="1;0.3;1"   dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="430" cy="15"  r="1.1" fill="white"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="28"  r="0.8" fill="white"><animate attributeName="opacity" values="1;0.5;1"   dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="650" cy="42"  r="1.0" fill="white"><animate attributeName="opacity" values="0.6;1;0.6" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="750" cy="20"  r="0.7" fill="white"><animate attributeName="opacity" values="1;0.2;1"   dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="38"  r="0.9" fill="white"><animate attributeName="opacity" values="0.3;1;0.3" dur="4.3s" repeatCount="indefinite"/></circle>
+    <circle cx="80"  cy="170" r="0.8" fill="white"><animate attributeName="opacity" values="1;0.4;1"   dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="180" r="1.0" fill="white"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="175" r="0.7" fill="white"><animate attributeName="opacity" values="1;0.3;1"   dur="3.9s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="168" r="0.9" fill="white"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="790" cy="178" r="1.1" fill="white"><animate attributeName="opacity" values="1;0.6;1"   dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="12"  r="0.6" fill="#a0c4ff"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="155" cy="58"  r="0.6" fill="#ffc8e8"><animate attributeName="opacity" values="1;0.3;1"   dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="480" cy="50"  r="0.6" fill="#c8f0ff"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Subtle center nebula glow -->
+  <ellipse cx="430" cy="100" rx="260" ry="55" fill="#2a0a5e" opacity="0.18">
+    <animate attributeName="opacity" values="0.10;0.22;0.10" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="430" cy="100" rx="160" ry="35" fill="#00b4cc" opacity="0.06">
+    <animate attributeName="opacity" values="0.04;0.10;0.04" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Decorative top-left anime corner mark (subtle) -->
+  <g opacity="0.35" filter="url(#softGlow)">
+    <line x1="18" y1="18" x2="40" y2="18" stroke="#7b2fff" stroke-width="1.5"/>
+    <line x1="18" y1="18" x2="18" y2="40" stroke="#7b2fff" stroke-width="1.5"/>
+  </g>
+  <!-- Decorative top-right -->
+  <g opacity="0.35" filter="url(#softGlow)">
+    <line x1="842" y1="18" x2="820" y2="18" stroke="#00d4ff" stroke-width="1.5"/>
+    <line x1="842" y1="18" x2="842" y2="40" stroke="#00d4ff" stroke-width="1.5"/>
+  </g>
+  <!-- Decorative bottom-left -->
+  <g opacity="0.35" filter="url(#softGlow)">
+    <line x1="18" y1="182" x2="40" y2="182" stroke="#00d4ff" stroke-width="1.5"/>
+    <line x1="18" y1="182" x2="18" y2="160" stroke="#00d4ff" stroke-width="1.5"/>
+  </g>
+  <!-- Decorative bottom-right -->
+  <g opacity="0.35" filter="url(#softGlow)">
+    <line x1="842" y1="182" x2="820" y2="182" stroke="#7b2fff" stroke-width="1.5"/>
+    <line x1="842" y1="182" x2="842" y2="160" stroke="#7b2fff" stroke-width="1.5"/>
+  </g>
+
+  <!-- BORDER: big soft halo glow layer -->
+  <rect x="1" y="1" width="858" height="198" rx="16"
+    fill="none"
+    stroke="url(#borderGlow)"
+    stroke-width="6"
+    filter="url(#bigGlow)"
+    opacity="0.7"/>
+
+  <!-- BORDER: sharp main glowing border -->
+  <rect x="2" y="2" width="856" height="196" rx="15"
+    fill="none"
+    stroke="url(#borderGlow)"
+    stroke-width="2"
+    filter="url(#borderBlur)"/>
+
+  <!-- BORDER: thin inner ring -->
+  <rect x="6" y="6" width="848" height="188" rx="12"
+    fill="none"
+    stroke="url(#borderGlow)"
+    stroke-width="0.6"
+    opacity="0.5"/>
+
+  <!-- Horizontal divider lines (anime HUD style) -->
+  <line x1="50" y1="130" x2="810" y2="130" stroke="#7b2fff" stroke-width="0.5" opacity="0.25"/>
+
+  <!-- Main title: AWS Sleebi -->
+  <text x="430" y="88"
+    font-family="'Courier New', monospace"
+    font-size="52"
+    font-weight="700"
+    letter-spacing="6"
+    text-anchor="middle"
+    fill="white"
+    filter="url(#textGlow)">
+    <tspan fill="#e8e8ff">AWS </tspan><tspan fill="#a78bff">Sleebi</tspan>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="430" y="118"
+    font-family="'Courier New', monospace"
+    font-size="13"
+    letter-spacing="3"
+    text-anchor="middle"
+    fill="#64b3f4"
+    opacity="0.9"
+    filter="url(#softGlow)">
+    FULL STACK DEV  ·  AXSOS ACADEMY  ·  2026
+  </text>
+
+  <!-- Small decorative dots on subtitle line -->
+  <circle cx="232" cy="114" r="1.5" fill="#7b2fff" opacity="0.8">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="628" cy="114" r="1.5" fill="#00d4ff" opacity="0.8">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Bottom tag line -->
+  <text x="430" y="155"
+    font-family="'Courier New', monospace"
+    font-size="10"
+    letter-spacing="2"
+    text-anchor="middle"
+    fill="#5577aa"
+    opacity="0.7">
+    「 from zero to full stack — one commit at a time 」
+  </text>
+
+</svg>
