@@ -1,12 +1,12 @@
 <div align="center">
 
-# Hey, I'm AWS Sleebi! 👋🌟
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+in+the+Making+🚀;AXSOS+Academy+Student+💪;Turning+Coffee+into+Code+☕;Building+One+Line+at+a+Time+🔥" alt="Typing SVG" />
+<!-- Custom hand-crafted SVG header: dark night sky, animated glowing border (purple → cyan → pink), twinkling stars -->
+<img src="https://raw.githubusercontent.com/Aws1811/Aws1811/main/header.svg" width="100%" alt="AWS Sleebi Header"/>
 
 <br/>
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=AWS%20Sleebi&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Dev%20%7C%20AXSOS%20Academy&descAlignY=55&descSize=18)
+<!-- Animated typing -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Rajdhani&weight=600&size=20&pause=1200&color=7EB8FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+in+the+Making+✦;AXSOS+Academy+Student+⚡;Turning+Coffee+into+Code+☕;Building+One+Line+at+a+Time+✧" alt="Typing SVG" />
 
 </div>
 
@@ -14,16 +14,16 @@
 
 ## 🎓 My Journey at AXSOS Academy
 
-<img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+<img align="right" width="280" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXUxeTZwd21rMTdqaHZlZTlxcXZhbjEzbHRqdndudDB0a3F5ZmN3eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif" />
 
 🏫 Currently enrolled at **AXSOS Academy** — one of the most intensive coding bootcamps in the region!
 
 📅 Every day is a new challenge:
 - 🌅 **Morning** → Daily Stand-up Meeting + Warm-up & Problem Solving 🧩
-- ☀️ **Afternoon** → Discussion & Deep Dive into the Stack *(Web Fundamentals, Python, Java, MERN...)* 💬
+- ☀️ **Afternoon** → Discussion & Deep Dive into the Stack *(Web Fundamentals, Python, Java, MERN...)*
 - 🌙 **Night** → Night Study — preparing for the next day's material 📖
 
-> *"From zero to full stack — one commit at a time."*
+> *「 From zero to full stack — one commit at a time. 」*
 
 <br clear="right"/>
 
@@ -38,7 +38,7 @@
 | HTML5 | Python / Django | MySQL | Git & GitHub |
 | CSS3 | Java / Spring | MongoDB | VS Code |
 | JavaScript | Node.js | | |
-| React *(coming soon!)* | REST APIs | |  |
+| React *(coming soon!)* | REST APIs | | |
 
 </div>
 
@@ -65,10 +65,10 @@
 ## 🏆 AXSOS Academy Milestones
 
 ```
-🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  Month 1 — Apr 2026   🔄  Web Fundamentals (HTML, CSS, JS)
-⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜  Month 2 — May 2026   ⏳  Python
-⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜  Month 3 — Jun 2026   ⏳  Java
-⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜  Month 4 — Jul 2026   ⏳  MERN Stack
+✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦   Month 1 — Apr 2026   🔄  Web Fundamentals (HTML, CSS, JS)
+◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇   Month 2 — May 2026   ⏳  Python
+◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇   Month 3 — Jun 2026   ⏳  Java
+◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇ ◇   Month 4 — Jul 2026   ⏳  MERN Stack
 ```
 
 ---
@@ -77,8 +77,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Aws1811&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&count_private=true" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aws1811&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" width="40%" />
+<img src="https://github-readme-stats.vercel.app/api?username=Aws1811&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&title_color=7eb8ff&icon_color=4a9eff&text_color=a8d8ff" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aws1811&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7eb8ff&text_color=a8d8ff" width="40%" />
 
 </div>
 
@@ -104,6 +104,10 @@
 
 <br/>
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer)
+<sub>✦ &nbsp; <i>「 The path of a thousand commits begins with a single push. 」</i> &nbsp; ✦</sub>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050510,50:0d1040,100:050510&height=90&section=footer" width="100%" />
 
 </div>
