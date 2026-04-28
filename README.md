@@ -14,7 +14,9 @@
 
 <div align-"center">
 
-[![Pablo](https://img.shields.io/badge/Pablo-000000?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHRleHQgeT0iMjAiIGZvbnQtc2l6ZT0iMjAiPvCfpYQ8L3RleHQ+PC9zdmc+&logoColor=white)](https://Aws1811.github.io)
+<a href="https://Aws1811.github.io">
+  <img src="https://raw.githubusercontent.com/Aws1811/Aws1811/main/pablo.svg" width="80" />
+</a>
 
 </div>
 
