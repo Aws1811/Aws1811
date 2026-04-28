@@ -12,9 +12,11 @@
 
 ---
 
+<div align-"center">
 
-Aws1811.github.io
+[![Pablo](https://img.shields.io/badge/Pablo-000000?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHRleHQgeT0iMjAiIGZvbnQtc2l6ZT0iMjAiPvCfpYQ8L3RleHQ+PC9zdmc+&logoColor=white)](https://Aws1811.github.io)
 
+</div>
 
 ## 🎓 My Journey at AXSOS Academy
 
@@ -105,7 +107,6 @@ Aws1811.github.io
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aws-sleebi-9225583b3/)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aws97801@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Aws1811)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://Aws1811.github.io)
 
 </div>
 <br/>
