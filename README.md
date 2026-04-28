@@ -12,16 +12,6 @@
 
 ---
 
-## 😏 one of my beloved pages I made :-
-
-<div align-"center">
-
-<a href="https://Aws1811.github.io">
-  <img src="https://raw.githubusercontent.com/Aws1811/Aws1811/main/pablo-banner.svg" width="100%"/>
-</a>
-
-</div>
-
 ## 🎓 My Journey at AXSOS Academy
 
 <img align="right" width="280" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXUxeTZwd21rMTdqaHZlZTlxcXZhbjEzbHRqdndudDB0a3F5ZmN3eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif" />
@@ -36,6 +26,19 @@
 > *「 From zero to full stack — one commit at a time. 」*
 
 <br clear="right"/>
+
+---
+
+
+## 😏 one of my beloved pages I made :-
+
+<div align-"center">
+
+<a href="https://Aws1811.github.io">
+  <img src="https://raw.githubusercontent.com/Aws1811/Aws1811/main/pablo-banner.svg" width="100%"/>
+</a>
+
+</div>
 
 ---
 
